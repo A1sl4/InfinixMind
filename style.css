@@ -1,0 +1,499 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'OpenDyslexic', sans-serif;
+}
+
+#menu {
+	 background-image: linear-gradient(to right, #a56ce6, #5687d6);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo img{
+	display: block; 
+   width: 130px; /*largura*/
+  height: 50px; /*altura*/
+  margin: 10px;
+}
+
+.menu {
+	align-content: center;
+  list-style: none; 
+  display: flex; 
+}
+
+.menu li {
+  position: relative; 
+}
+
+.menu li a {
+  display: block; 
+  padding: 7px 13px;
+	text-decoration: none;
+	font-size: 16px;
+	color: white;
+	border-radius: 20px;
+	transition: 0.6s;
+}
+
+.menu li a:hover {
+  background-color: #7a9dd6;
+}
+
+footer {
+    text-align: center;
+	padding:70px;
+    margin: 40px ;
+    color: #9a9fa6;
+	font-size: 20px;
+}
+
+
+/*index*/
+.index{
+	height: 100vh;
+	align-items: center;
+	background-repeat: no-repeat;
+	background-size: 90%;
+	background-position: center;
+}
+
+.capa img{
+	margin: auto;
+    display: block;
+}
+
+.coracao {
+	margin-top: 70px;
+	display: flex;
+	justify-content: center;
+}
+
+.coracao img{
+  width: 660px ; /*largura*/
+  height: 580px; /*altura*/
+}
+
+#h4index{
+	padding: 0px;
+	margin-left: 450px;
+	margin-right: 450px;
+	text-align: center;
+	font-size: 25px;
+}
+
+
+/*neuro*/
+
+.neuro{
+	background-color: #9670e3;
+	background-image:url('ondascinza.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#sumario {
+	background:white;
+	font-color: #a56ce6;
+	display: flex;
+	justify-content: center;
+	position: sticky;
+	top: 0;
+	z-index: 1000; 
+}
+
+.sum {
+	align-content: center;
+  list-style: none; 
+  display: flex; 
+}
+
+.sum li {
+  position: relative; 
+}
+
+.sum li a {
+  display: block; 
+  padding: 7px 13px;
+	text-decoration: none;
+	font-size: 16px;
+	color: #a56ce6;
+	border-radius: 20px;
+	transition: 0.6s;
+}
+
+.sum li a:hover {
+  background-color: #E0DCE3;  
+}
+
+#quemneuro{
+	color: #4739d9;
+	font-size: 60px;
+}
+
+.textneuro{
+	color: white;
+	padding:30px 40px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#h1neuro{
+	color: #4739d9;
+	font-size:60px;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.h2neuro{
+	font-size: 40px;
+	color: purple;
+	text-align: left;
+	padding-left: 210px;
+	padding-right: 210px;
+}
+
+#pneuro1{
+	font-size: 25px;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+#pneuro{
+	font-size: 25px;
+	color: white;
+	text-align: justify;
+	padding-left: 250px;
+	padding-right: 250px;
+	margin-bottom: 50px;
+}
+
+/*tecno*/ 
+
+.tecnologia{
+	background-image:url('ondas.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#tca{
+	color: white;
+	padding-top: 40px;
+	text-align: center;
+	font-size: 48px;
+}
+
+#textotca{
+	margin-left:300px;
+	margin-right:300px;
+	margin-bottom: 80px;
+	color: white;
+	padding: 35px;
+	text-align: center;
+	font-size: 24px;
+}
+
+#ptecno{
+	padding-top: 14,4px;
+	padding-bottom: 38,4px;
+	padding-left: 16px; 
+	padding-right: 16px;
+	font-size: 16px;
+	text-align: justify;
+}
+
+#h2tecno{
+	padding: 24px;
+	text-align: center;
+	font-size: 32px;
+	color: purple;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+ }
+ 
+ .tecnoaliadas {
+    background: #f6f2ff;
+    border-radius: 16px;
+    width: 440px;
+    margin: 12px;
+    padding: 12px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    text-align: center;
+ }
+ 
+.tecnoaliadas button {
+	margin-bottom: 38,4px;
+    padding: 12px;
+    background-color: #a56ce6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+ }
+ 
+.tecnoaliadas button:hover {
+    background-color: #5687d6;
+ }
+ 
+ .tecnoaliadas h2{
+	text-align: center;
+	font-size: 24px;
+	color: black;
+ } 
+ 
+
+/*mental*/
+
+.saudemental{
+	background-color: #afb9e6;
+	background-image:url('folhas.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#h1mental{
+	color: White;
+	font-size:60px;
+	text-align: center;
+	padding-left: 600px;
+	padding-right: 600px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+#pmental{
+	font-size: 25px;
+	color: white;
+	text-align: center;
+	padding-left: 250px;
+	padding-right: 250px;
+	margin-bottom: 50px;
+}
+
+.h2mental{
+	font-size: 40px;
+	color:purple;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+#h3mental{
+	font-size: 30px;
+	color:purple;
+	padding-left: 210px;
+	padding-right: 210px;
+}
+
+.quadro {
+	margin: 70px;
+	display: flex;
+	justify-content: center;
+}
+
+#p2mental{
+	font-size:23px;
+	color: white;
+	padding-left: 210px;
+	padding-right: 210px;
+}
+
+#p3mental{
+	font-size: 20px;
+	color: white;
+	padding-left: 220px;
+	padding-right: 220px;
+}
+
+
+/*mais*/
+.mais{
+background-color: #a8c3ef;
+	background-image:url('neon.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+	
+.cards {
+	display: flex;
+    justify-content: center;
+    margin-top: 150px;
+	margin-bottom: 150px;
+}
+
+.card {
+    background: #926bdf;
+    border-radius: 50px;
+    text-align: center;
+		padding-left: 50px;
+	padding-right: 50px;
+    width: 1000px;
+    transition: transform 0.3s;
+		margin-left: 50px;
+	margin-right: 50px;	
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+#h2mais{
+	padding: 20px;
+	font-size:45px;
+	color: white;
+}
+
+#pmais{
+	font-size: 27px;
+	color:white;
+}
+
+.mais button {
+    padding: 10px;
+	width: 250px;
+    background-color: #a8c3ef;
+	font-size: 22,5px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+	display: flex;
+	justify-content: center;
+ }
+ 
+.mais button:hover {
+    background-color: white;
+	color: #a8c3ef;
+ }
+ 
+ .botao {
+	 margin: 70px;
+	 display: flex;
+	justify-content: center;
+ }
+ 
+ .banner1 {
+    height: 60vh; /* menor altura */
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('ondasazul.png');
+    background-size: cover; /* cobre toda a partezinha do "banner" */
+    background-position: center; /* centraliza */
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner2 {
+    height: 60vh; /* menor altura */
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('ondasroxa.png');
+    background-size: cover; /* cobre toda a partezinha do "banner" */
+    background-position: center; /* centraliza */
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.titulo-com-imagens {
+	display: flex;
+	align-items: center;
+	justify-content: center; 
+	padding: 16px 32px;
+}
+
+.icone-esq {
+	width: 104px;
+	height: 74px;
+}
+.icone-dir {
+	width: 74px;
+	height: 80px;
+}
+
+#leisedireitos{
+	text-align: center;
+	color: #181c97;
+	font-size: 70px;
+}
+
+#h2mais2{
+	margin-top: 55px;
+	font-size: 42px;
+	color:purple;
+	padding-left: 400px;
+	padding-right: 400px;
+}
+
+#pmais2{
+	text-align: justify;
+	color: white;
+	margin: 20px;
+	font-size:25px;
+	padding-left: 410px;
+	padding-right: 410px;
+}
+
+#sobreosite{
+	text-align: center;
+	color: purple;
+	font-size: 70px;	
+}
+
+#pmais3{
+	text-align: justify;
+	color: white;
+	margin: 20px;
+	font-size:25px;
+	padding-left: 410px;
+	padding-right: 410px;
+}
+
+#titulodicas{
+	text-align: center;
+	color: #6b0676;
+	font-size: 70px;
+}
+
+#para{
+	margin: 55px;
+	text-align: center;
+	font-size: 50px;
+	color: #6258ab;
+	padding-left: 400px;
+	padding-right: 400px;
+}
+
+#dicas{
+	margin-top: 30px;
+	text-align: left;
+	font-size: 43px;
+	color: #6b0676;
+	padding-left: 400px;
+	padding-right: 400px;
+}
+
+#textodicas{
+	text-align: justify;
+	color: white;
+	margin: 20px;
+	
+	font-size:25px;
+	padding-left: 410px;
+	padding-right: 410px;
+}
